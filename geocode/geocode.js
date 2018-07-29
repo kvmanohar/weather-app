@@ -1,10 +1,3 @@
-// https://darksky.net/dev/account
-// Dark-Sky API Key: 4a3b0f98e7f107c734925d8f8ba04154
-
-// API KEY Export Environment variables
-// export WEATHER_APP_KEY="AIzaSyAPpiUQFlX4mTC39-jDPgEnPtb0Cfbn7ng"
-// export DARKSKY_APIKEY="4a3b0f98e7f107c734925d8f8ba04154"
-// 
 const request = require('request');
 
 var geocodeAddress = (address, callback) => {
