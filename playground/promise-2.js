@@ -1,7 +1,7 @@
 const request = require('request');
 
 var geocodeAddress = (address) => {
-    console.log(address);
+    console.log(encodeURI(address));
     
     return new Promise((resolve, reject) => {        
         request({
